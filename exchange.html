@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="amount" style="margin-left: 50px">Amount</label>
+<label for="from" style=" margin-left: 60px">From Currency</label>
+<label for="to" style=" margin-left: 20px">To Currency</label><br>
+<input type="number" id="amount">
+<select name="from" id="from" style=" margin-left: 30px">
+    <option value="23000">VietNam</option>
+    <option value="1">USD</option>
+</select>
+<select name="to" id="to" style=" margin-left: 30px">
+    <option value="1">USD</option>
+    <option value="23000">Viet Nam</option>
+</select>
+<button type="button" onclick="exchange()" style=" margin-left: 30px">Convert</button>
+<p id="result"></p>
+<script src="my.js"></script>
+</body>
+</html>
